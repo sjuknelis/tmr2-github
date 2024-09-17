@@ -1,0 +1,1 @@
+/Users/simasjuknelis/Desktop/tmr2/backend/server/types.ts

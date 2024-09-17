@@ -1,0 +1,21 @@
+.container-fluid {
+    justify-content: center !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.navbar {
+    background-color: hsl(197deg 65.3% 48.2%) !important;
+}
+
+img {
+    height: 2rem;
+}
+
+span {
+    position: relative;
+    bottom: -2px;
+    padding-left: .5rem;
+}

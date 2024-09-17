@@ -1,0 +1,47 @@
+.card {
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.title.expanded {
+    -webkit-line-clamp: 999;
+    line-clamp: 999;
+}
+
+td:first-child {
+    width: 33%;
+}
+
+td:not(:first-child) {
+    width: 22%;
+}
+
+tr:last-child td {
+    font-weight: bold;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid #eeeeee;
+}
+
+td,
+th {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "TrackMyRep",
+  "description": "Get informed about your House representative's voting record every time you read a news article on the web.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+  "permissions": [
+    "tabs",
+    "geolocation",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://clerk.house.gov/"
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}
